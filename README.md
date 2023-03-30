@@ -1,1 +1,1 @@
-# cosmic-olympian-guild.github.io
+# Organizational Website
