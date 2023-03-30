@@ -1,1 +1,1 @@
-# Organizational Website
+# Organization Website
