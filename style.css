@@ -1,6 +1,28 @@
-html,body {
-    background-color: #232428;
+@font-face {
+    font-family: ggsans_bold;
+    src: url("https://theme.zdassets.com/theme_assets/678183/a8c5dd527a4d25b4e32c8be0ecd29e8e7dcbdecb.woff2");
 }
-h1{
+
+@font-face {
+    font-family: ggsans;
+    src: url("https://theme.zdassets.com/theme_assets/678183/d8688381117f9ef89f410ebf5a25bc74ae1d3403.woff2");
+}
+
+html,body,p{
+    margin: 2%;
+    word-wrap:normal;
+    background-color: #232428;
+    font-family: ggsans;
     color: white;
+}
+h1,h2{
+    font-family: ggsans_bold;
+}
+
+.topbar{
+    font-size: 1em;
+    padding: 2%;
+    border-radius: 30px;
+    display: inline-block;
+    background-color: rgb(43, 45, 49);
 }
