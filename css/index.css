@@ -1,0 +1,17 @@
+#logoimg {
+    border-radius: 30px;
+    float: left;
+    margin-right: 40px;
+}
+
+.project {
+    margin: 40px;
+    padding: 2%;
+    border-radius: 30px;
+    background-color: rgb(43, 45, 49);
+    width: 25%;
+}
+
+#project-list {
+    display: inline;
+}

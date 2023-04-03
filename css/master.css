@@ -1,0 +1,40 @@
+@font-face {
+    font-family: ggsans_bold;
+    src: url("https://theme.zdassets.com/theme_assets/678183/a8c5dd527a4d25b4e32c8be0ecd29e8e7dcbdecb.woff2");
+}
+
+@font-face {
+    font-family: ggsans;
+    src: url("https://theme.zdassets.com/theme_assets/678183/d8688381117f9ef89f410ebf5a25bc74ae1d3403.woff2");
+}
+
+html, body {
+    margin: 2%;
+    word-wrap: normal;
+    background-color: #232428;
+    font-family: ggsans;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: ggsans_bold;
+}
+
+.topbar {
+    background-color: rgb(43, 45, 49);
+    padding: 5%;
+    border-radius: 30px;
+}
+
+button {
+    background-color: rgb(190,74,119);
+    border-radius: 5px;
+    padding: 10px;
+    border: none;
+    transition: 1s;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(189, 106, 138);
+}
